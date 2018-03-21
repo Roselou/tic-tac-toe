@@ -1,8 +1,52 @@
+body {
+	 background-color: #EACFF2;
+	 font-family: 'Josefin Sans', sans-serif;
+}
+
+.col-md-6.col-md-offset-3{
+	display: block;
+	margin: 0 auto;
+}
+
 #board {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .box {
   border: 1px solid black;
   height: 150px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40px;
 }
+
+#no-top-left {
+	border-left: transparent;
+	border-top: transparent;
+} 	
+ #no-top {
+ 	border-top: transparent;
+ }
+  #no-top-right {
+  	border-top: transparent;
+  	border-right: transparent;
+  }
+
+  #no-left {
+  	border-left: transparent;
+  }
+  #no-bottom-left{
+  	border-left: transparent;
+  	border-bottom: transparent;
+  }
+
+  #no-bottom{
+  	border-bottom: transparent;
+  }
+  #no-bottom-right{
+  	border-bottom: transparent;
+  	border-right: transparent;
+  }
+  #no-right{
+  	border-right: transparent;
+  }
